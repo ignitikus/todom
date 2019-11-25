@@ -26,5 +26,5 @@ An exercise in putting todo lists on the DOM.
 * Add some flexbox or grid so that our list looks good. Consider the type of spacing you want for your items, your input boxes, your title, and so on.
 * Make the site responsive. Most people use todo apps on their phone instead of their computers.
 * Number the todo items (you don't have to use JavaScript for this, though you could) and ask the user for the _number_ they want to remove, not the index. You'll have to translate the user's input to remove the correct element from the array--humans and robots count differently!
-* Make it so that we can click on a todo list item to remove it instead ofasking your user to type in a number. That's just awkward!
+* Make it so that we can click on a todo list item to remove it instead of asking your user to type in a number. That's just awkward!
 * Add a button to delete all items. ("Clear List", maybe?). Make sure you're removing them from the DOM _and_ the array. You already have a function to remove all items from the DOM!

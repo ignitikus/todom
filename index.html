@@ -9,19 +9,25 @@
   <body>
     <div class="app">
       <h1>Todo</h1>
-        <section>
+        <section id='section1'>
           <label for="todo-input">Add to your todo list!</label>
           <input class="todo-input "type="text" name="todo-input">
           <button class="add-todo">ADD</button>
         </section>
-        <section>
-          <label for="index-input">Remove an index from your todo list! (Counting from zero because coding.)</label>
+        <section id='section2'>
+          <label for="index-input">Remove an index from your todo list!</label>
           <input class="index-input "type="text" name="index-input">
           <button class="remove-todo">REMOVE</button>
         </section>
-      <ul class="todo-list"></ul>
+        <section id='section3'>
+          <label for="remove-everything">Click here to clear the list</label>
+          <button class="remove-everything">Clear</button>
+        </section>
+        
+      <ol class="todo-list"></ol>
     </div>
     <script src = "./addToToDo.js"></script>
     <script src = "./removeFromToDo.js"></script>
+    <script src = "./clear-everything.js"></script>
   </body>
 </html>
